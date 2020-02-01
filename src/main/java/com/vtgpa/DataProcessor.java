@@ -84,7 +84,10 @@ public class DataProcessor {
     
     @RequestMapping("test/{subject}/{courseNum}/{instructor}")
     public String getGPAOnly(@PathVariable("subject")String subject, @PathVariable("courseNum")String courseNum, @PathVariable("instructor")String instructor) {
-    	return getGPA(subject, courseNum, instructor).getCourseGPA();
+    	if (getGPA(subject, courseNum, instructor).getInstructorGPA().equals("0.0")) {
+    		return getGPA(subject, courseNum, instructor).getCourseGPA();
+    	}
+    	return getGPA(subject, courseNum, instructor).getInstructorGPA();
     }
 
 
