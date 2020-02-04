@@ -1,5 +1,6 @@
 package com.vtgpa;
 
+//test
 
 public class Course {
     // private fields
