@@ -8,9 +8,8 @@ Spring
 Maven
 
 ### Frontend
-Javascript
-
-JQuery
-
+Javascript  
+JQuery  
 HTML/CSS
 
+ 
