@@ -38,24 +38,21 @@ public class DataProcessor {
     @RequestMapping("{subject}/{courseNum}/{instructor}")
     public ReturnData getGPA(@PathVariable("subject")String subject, @PathVariable("courseNum")String courseNum, @PathVariable("instructor")String instructor) {
         ArrayList<Course> allList = new ArrayList<Course>();
+        ArrayList<Course> instructList = new ArrayList<Course>();
         for (int i = 0; i < courses.size(); i++) {
             Course tempCourse = courses.get(i);
+            
             if ((tempCourse.getSubject().equals(subject)) && (tempCourse
                 .getCourseNum().equals(courseNum))) {
                 allList.add(tempCourse);
             }
+            if (instructor.equalsIgnoreCase(tempCourse.getInstructor()) && courseNum
+                    .equalsIgnoreCase(tempCourse.getCourseNum()) && subject
+                        .equalsIgnoreCase(tempCourse.getSubject())) {
+                    instructList.add(tempCourse);
+                }
         }
 
-        ArrayList<Course> instructList = new ArrayList<Course>();
-        for (int i = 0; i < courses.size(); i++) {
-            Course tempCourse = courses.get(i);
-            // System.out.println(tempCourse.getInstructor());
-            if (instructor.equalsIgnoreCase(tempCourse.getInstructor()) && courseNum
-                .equalsIgnoreCase(tempCourse.getCourseNum()) && subject
-                    .equalsIgnoreCase(tempCourse.getSubject())) {
-                instructList.add(tempCourse);
-            }
-        }
         ReturnData retData = new ReturnData();
         retData.setNumber(courseNum);
         retData.setDepartment(subject);
@@ -81,7 +78,7 @@ public class DataProcessor {
         return retData;
     }
     
-    
+    //
     @RequestMapping("test/{subject}/{courseNum}/{instructor}")
     public String getGPAOnly(@PathVariable("subject")String subject, @PathVariable("courseNum")String courseNum, @PathVariable("instructor")String instructor) {
     	
