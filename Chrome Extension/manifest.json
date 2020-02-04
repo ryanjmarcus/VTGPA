@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "VT GPA",
+  "version": "0.1",
+  "icons" : {
+    "128" : "square.png"},
+  "permissions": [
+    "http://localhost:8080/*",
+    "https://obscure-citadel-49019.herokuapp.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://banweb.banner.vt.edu/*"
+      ],
+      "js": ["jquery-2.2.4.min.js", "content.js"]
+    }
+  ]
+}
