@@ -3,9 +3,8 @@ VTGPA is a Chrome Extension to display corresponding GPA data on the Virginia Te
 
 ## Technology
 ### Backend
-Java
-Spring
-
+Java  
+Spring  
 Maven
 
 ### Frontend
