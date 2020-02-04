@@ -5,7 +5,7 @@ Using a Virginia Tech grade report generated from the University DataCommons, th
 ## Technology
 ### Front End
 * Javascript  
-* JQuery  
+  * JQuery  
 * HTML/CSS
 ## Back End
 * Java  
