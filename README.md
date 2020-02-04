@@ -1,1 +1,1 @@
-# VTGPA - Chrome Extension
+# VTGPA
