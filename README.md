@@ -8,7 +8,7 @@ This project was completed in 24 hours and is fairly rough. The backend needs a 
 
 ## Awards
 Virginia Tech: SheHacks 2020
-* 1st place
+* 1st place (out of 70 teams)
 
 ## Technology
 ### Front End
