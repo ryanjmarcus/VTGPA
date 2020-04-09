@@ -10,9 +10,9 @@ Using a Virginia Tech grade report generated from the University DataCommons, th
 This project was completed in 24 hours and is fairly rough. The backend needs a major rewrite for efficiency. Stay tuned for  updates soon.
 
 ## Members
-Matthew Betsill
-Ryan Bierly
-Ryan Marcus
+Matthew Betsill <br />
+Ryan Bierly <br />
+Ryan Marcus <br />
 Pranav Chavvakula
 
 ## Awards
