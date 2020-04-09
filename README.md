@@ -2,7 +2,7 @@
 VTGPA is a Chrome Extension to display corresponding GPA data on the [Virginia Tech Timetable of classes](https://banweb.banner.vt.edu/ssb/prod/HZSKVTSC.P_DispRequest).
 
 ## Description
-Using a Virginia Tech grade report generated from the University DataCommons, the CSV is parsed and turned into a RESTful web-service using Java and Spring. The Javascript is responsible for scraping each row of the timetable and performing a GET request on the server. The GPA data is then calculated specific to the instructor and course. A new column is added on the timetable and the relevant data is written in.
+Using a Virginia Tech grade report generated from the University DataCommons, the CSV is parsed and turned into a RESTful web-service using Java and Spring. The Javascript is responsible for scraping each row of the timetable and performing a GET request on the server. The GPA data is then calculated specific to the instructor and course. If an instructore has never taught that course before, the GPA defaults to the overall course average. A new column is then added on the timetable and the relevant data is written in.
 ## Images
 ![Before](before.png)
 ![After](after.png)
