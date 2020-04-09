@@ -8,7 +8,7 @@ Using a Virginia Tech grade report generated from the University DataCommons, th
 ![After](after.png)
 
 ## Notes
-This project was completed in 24 hours and is fairly rough. The backend needs a major rewrite for efficiency. Stay tuned for  updates soon.
+This project was completed in 24 hours and is fairly rough. The backend needs a major rewrite for efficiency. The Chrome Extension is currently not in the Google Web Store, however, you can manually upload the folder. Stay tuned for updates soon!
 
 ## Members
 Matthew Betsill <br />
