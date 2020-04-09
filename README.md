@@ -9,6 +9,12 @@ Using a Virginia Tech grade report generated from the University DataCommons, th
 ## Notes
 This project was completed in 24 hours and is fairly rough. The backend needs a major rewrite for efficiency. Stay tuned for  updates soon.
 
+## Members
+Matthew Betsill
+Ryan Bierly
+Ryan Marcus
+Pranav Chavvakula
+
 ## Awards
 Virginia Tech: SheHacks 2020
 * 1st place (out of 70 teams)
