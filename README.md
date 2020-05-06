@@ -27,11 +27,11 @@ Virginia Tech: SheHacks 2020
 * Javascript  
   * JQuery  
 * HTML/CSS
-## Back End
+### Back End
 * Java  
 * Spring  
    * Maven
-## Deployment
+### Deployment
 * Heroku
 
  
